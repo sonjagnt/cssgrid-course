@@ -1,9 +1,0 @@
-@import url(./basic-styles.css);
-
-/* lesson styles */
-
-.container {
-  display: grid;
-  gap: 25px;
-  grid-template-columns: 100px repeat(4, 1fr) auto;
-}
