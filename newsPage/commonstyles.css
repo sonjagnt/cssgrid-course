@@ -1,0 +1,39 @@
+:root {
+  --font-primary: "Darker Grotesque", sans-serif;
+  --main: #000d1f;
+  --white: #fff;
+  --blue: #ecf2fa;
+  --orange: #f2994a;
+  --placeholder: #a7b2c0;
+  --subheader: #50739f;
+}
+
+@font-face {
+  font-family: BasisGrotesquePro;
+  src: url(../fonts/BasisGrotesquePro-Regular.woff);
+}
+
+body {
+  font-family: BasisGrotesquePro, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

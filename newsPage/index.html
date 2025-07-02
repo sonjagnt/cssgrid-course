@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>News Page</title>
+  </head>
+  <body>
+    <header class="header header-container">
+      <a href="./index.html" class="logo">Logo</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#">News</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="post">
+          <div class="post-name">
+            <span class="navigation"
+              >Cryptocurrencies > Bitcoin >
+              <span class="active">News</span></span
+            >
+            <h3 class="title">
+              The Scalability Solution: Understanding Layer One vs. Layer Two
+              Blockchains
+            </h3>
+            <span class="date">20 Sep 2023, 8:00pm</span>
+            <span class="author">By Alex House</span>
+          </div>
+          <img src="../img/image 24.png" />
+          <div class="news-content">
+            <p>
+              Layer one or L1 refers to a base blockchain protocol like Bitcoin
+              or Ethereum. These networks operate on a decentralized ledger
+              secured by
+              <a
+                class="text-link"
+                href="https://news.bitcoin.com/deciphering-the-differences-between-proof-of-stake-and-proof-of-work/"
+              >
+                proof-of-work (PoW) mining or proof-of-stake (PoS) staking </a
+              >. L1 chains such as Bitcoin and Ethereum offer unparalleled
+              security. However, during peak times, both of these chains grapple
+              with sluggish transaction speeds and steep fees.
+            </p>
+
+            <p>
+              Developers from several L1 networks are working to improve layer
+              one scaling through methods like
+              <a
+                href="https://news.bitcoin.com/bitcoin-cash-upgrade-milestone-complete-32mb-and-new-features/"
+                class="text-link"
+                >increasing</a
+              >
+              block size,
+              <a
+                href="https://news.bitcoin.com/what-is-eip-4844-a-look-at-proto-danksharding-and-its-effect-on-rollup-fees/"
+                class="text-link"
+                >sharding</a
+              >, and
+              <a
+                href="https://news.bitcoin.com/what-is-the-merge-a-brief-explanation-of-ethereums-transition-from-proof-of-work-to-proof-of-stake/"
+                class="text-link"
+                >introducing</a
+              >
+              proof-of-stake consensus. However, substantial layer one upgrades
+              require coordination among node operators and can take years to
+              implement. Some blockchains intend to use L2 protocols as either a
+              temporary or long-term solution.
+            </p>
+
+            <p>
+              Bitcoin’s
+              <a
+                href="https://lightning.network/lightning-network-paper.pdf"
+                class="text-link"
+                >Lightning Network</a
+              >
+              (LN) is a second-layer scaling solution designed to facilitate
+              faster, low-cost transactions on the Bitcoin blockchain (L1). It
+              operates on top of Bitcoin’s base layer, allowing for instant
+              payments by circumventing the need for block confirmations.
+            </p>
+
+            <p>
+              Transactions on the Lightning Network occur off-chain in payment
+              channels between users. Only channel open and close transactions
+              are recorded on the Bitcoin blockchain. Participants can transact
+              multiple times within these channels, reducing congestion and fees
+              on L1.
+            </p>
+
+            <p>
+              Critics target LN for its prevalent use of custodial wallets, as
+              these demand users place trust in third parties to handle their
+              money. Moreover, the off-chain method poses a risk: if nodes lack
+              proper backup, it could trigger an irrevocable loss of funds.
+            </p>
+
+            <p>
+              Loopring uses zero-knowledge rollups (<a
+                href="https://news.bitcoin.com/what-are-rollups-ethereums-main-scaling-solution-examined/"
+                class="text-link"
+                >ZK-rollups</a
+              >) to batch hundreds of transactions off-chain and generate a
+              cryptographic proof verifying their validity. This proof is
+              submitted to layer one (Ethereum), avoiding the need to process
+              each transaction on-chain.
+            </p>
+
+            <p>
+              Polygon ZKEVM also uses ZK-rollup technology to offer high
+              throughput Ethereum transactions with lower fees. On the risk
+              side, some believe that relying heavily on ZK-rollups can
+              introduce
+              <a href="https://arxiv.org/pdf/2306.02785" class="text-link"
+                >centralization risks</a
+              >
+              as validators and sequencers become key to the system.
+            </p>
+          </div>
+        </div>
+        <div class="posts">
+          <h3>More News</h3>
+          <ul class="news-list">
+            <li class="news-post">
+              <img src="../img/newsimg.png" />
+              <h5 class="small-title">
+                U.S. downs suspected Chinese spy balloon
+              </h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg2.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg3.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg4.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg5.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg6.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg7.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+            <li class="news-post">
+              <img src="../img/newsimg8.png" />
+              <h5>U.S. downs suspected Chinese spy balloon</h5>
+              <p>
+                China called the vessel’s downing “an excessive reaction” and
+                said it “retains the right to respond...
+              </p>
+              <span
+                >Craig Bator -
+                <span class="date-secondary">27 Dec 2020</span></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>footer</footer>
+  </body>
+</html>
